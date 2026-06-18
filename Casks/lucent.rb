@@ -1,7 +1,7 @@
 cask "lucent" do
   version "1.0.0-beta.0"
-  sha256 intel: "ed5d3e7da8365bee9e52188d7d53d173ae13ccbec63c9a0e7ef4017ec3a04593",
-         arm:   "f2298f2461e5909656d7da279d1c8318a8c5110990c12eb920081a5fb085f047"
+  sha256 intel: "8bc73710bae008d1034f52e68d0e48ebe72454f5ae8a1f80dd719b1da39d3b26",
+         arm:   "80a8ec023690402cbfa04b1f09b720762cbc16f3ad17c49518f25901cb0ff7da"
 
   on_intel do
     url "https://github.com/harasya/app-lucent/releases/download/v#{version}/Lucent-#{version}-mac.zip"
