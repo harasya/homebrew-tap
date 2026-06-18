@@ -1,7 +1,7 @@
 cask "lucent" do
   version "1.0.0-beta.2"
-  sha256 intel: "48195c8d887d86301afb24b9aeef552ef7fe7ed9f0e34696ddb73218ecfa792f",
-         arm:   "6c1442d953a4a6c62da85a6bb537aa4a6d4f02a9a7757dfb4db78ce527391559"
+  sha256 intel: "1630268577f0617c39bc36b0e8b35ed25b7d047104e55504954548f1eeb573eb",
+         arm:   "becd09e5e0f43f12e58ca8d55c58e07387380f3f8edc7736ddd48b4deb4b4d53"
 
   on_intel do
     url "https://github.com/harasya/homebrew-tap/releases/download/v#{version}/Lucent-#{version}-mac.zip"
